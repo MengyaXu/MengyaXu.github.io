@@ -8,8 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  image_width: 150px # 自定义宽度
-  image_height: 150px # 自定义高度
+  image_width: 200px # 自定义宽度
+  image_height: 250px # 自定义高度
   # more_info: >
   #   <p>Robotics Institute</p>
   #   <p>University of Technology Sydney</p>
