@@ -1,7 +1,7 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Mengya Xu",
+    "label": "PhD",
     "image": "",
     "email": "albert@einstein.de",
     "phone": "(912) 123-4567",
@@ -24,13 +24,20 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "University of Technology Sydney",
+      "position": "Visiting Scholar",
+      "startDate": "2025-02-12",
+      "endDate": "now",
+      "summary": "Develop extended Kalman filter based algorithms for simultaneous localization and mapping in deformable environments such as inside body environments.",
+      "highlights": ["Deformable SLAM"]
+    },
+    {
+      "name": "Southern University of Science and Technology",
+      "position": "Research Assistant",
+      "startDate": "2019-09-01",
+      "endDate": "2020-03-13",
+      "summary": " Reinforcement learning based path planning, runtime safety assurance for autonomous driving.",
+      "highlights": ["Reinforcement Learning"]
     }
   ],
   "volunteer": [
@@ -47,24 +54,34 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Technology Sydney",
+      "location": "Sydney, Australia",
+      "url": "https://www.uts.edu.au/",
+      "department": "Robotics Institute",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2020-04-01",
+      "endDate": "2025-02-12",
+      "courses": ["Engineering"]
+    },
+    {
+      "institution": "Southern University of Science and Technology",
+      "location": "Guangdong, China",
+      "url": "https://www.sustech.edu.cn/en/",
+      "department": "Computer Science and Engineering",
+      "studyType": "bachelor",
+      "score": "3.56/4",
+      "startDate": "2015-09-01",
+      "endDate": "2019-06-28",
+      "courses": ["Computer Science and Technology"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
+      "title": "Post Thesis Award",
+      "date": "2024-06-12",
+      "awarder": "Faculty of Engineering and Information Technology |  University of Technology Sydney",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "The FEIT PhD Post-Thesis Scholarship is a competitive scholarship open to all FEIT PhD candidates whose thesis is under examination and who are yet to graduate from UTS.'"
     }
   ],
   "certificates": [
