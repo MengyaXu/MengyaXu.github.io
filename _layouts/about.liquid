@@ -27,10 +27,29 @@ layout: default
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
+          
+          {% comment %} 支持自定义图片尺寸 {% endcomment %}
+          {% assign custom_style = "" %}
+          {% if page.profile.image_width or page.profile.image_height %}
+            {% capture custom_style %}
+              {% if page.profile.image_width %}width: {{ page.profile.image_width }};{% endif %}
+              {% if page.profile.image_height %}height: {{ page.profile.image_height }};{% endif %}
+              object-fit: cover;
+            {% endcapture %}
+          {% endif %}
+          
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
+            cache_bust=true max-width=page.profile.image_width max-height=page.profile.image_height
           %}
+          
+          {% if custom_style != "" %}
+            <style>
+              .profile img {
+                {{ custom_style }}
+              }
+            </style>
+          {% endif %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -43,7 +62,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">📢 Latest News & Updates</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">📣 Latest News & Updates</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}

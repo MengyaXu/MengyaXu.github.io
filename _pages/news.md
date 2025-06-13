@@ -1,6 +1,6 @@
 ---
 layout: page
-title: News and Updates
+title: 📡 News and Updates
 permalink: /news/
 ---
 

@@ -205,6 +205,22 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+
+  // 自定义照片大小
+  img {
+    max-width: 250px; // 设置最大宽度为250px
+    max-height: 250px; // 设置最大高度为250px
+    width: auto; // 保持宽高比
+    height: auto; // 保持宽高比
+    object-fit: cover; // 确保图片填满容器同时保持比例
+  }
+
+  // 圆形照片的额外样式
+  img.rounded-circle {
+    width: 200px; // 圆形照片固定宽度
+    height: 200px; // 圆形照片固定高度
+    object-fit: cover; // 确保图片不变形
+  }
 }
 
 .profile.float-right {
