@@ -55,9 +55,9 @@
     }
   ],
   "interests": [
-    "SLAM",
+    {"keywords": ["SLAM",
     "Active SLAM",
     "Deformable SLAM ",
-    "Reinforcement Learning"
+    "Reinforcement Learning"]}
   ]
 }
