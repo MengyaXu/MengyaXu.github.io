@@ -28,7 +28,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a robotics researcher with a Ph.D. from the [Robotics Institute, University of Technology Sydney (UTS)](https://www.uts.edu.au/research/centres/robotics-institute), supervised by [Prof. Shoudong Huang](https://profiles.uts.edu.au/Shoudong.Huang/), [A/Pro. Liang Zao](https://www.research.ed.ac.uk/en/persons/liang-zhao) and [Prof. Qi Hao](https://www.sustech.edu.cn/en/faculties/haoqi.html)(Southern University of Science and Technology). My research interests lie in simultaneous localization and mapping (SLAM), active SLAM, deformbale SLAM and motion planning.
+I am a robotics researcher with a Ph.D. from the [Robotics Institute, University of Technology Sydney (UTS)](https://www.uts.edu.au/research/centres/robotics-institute), supervised by [Prof. Shoudong Huang](https://profiles.uts.edu.au/Shoudong.Huang/), [A/Pro. Liang Zhao](https://www.research.ed.ac.uk/en/persons/liang-zhao) and [Prof. Qi Hao](https://www.sustech.edu.cn/en/faculties/haoqi.html)(Southern University of Science and Technology). My research interests lie in simultaneous localization and mapping (SLAM), active SLAM, deformbale SLAM and motion planning.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
