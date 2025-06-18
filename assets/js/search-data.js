@@ -477,7 +477,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Mengya Xu", "_blank");
+          window.open("https://www.linkedin.com/in/mengya-xu-7052a2311", "_blank");
         },
       },{
         id: 'social-scholar',
