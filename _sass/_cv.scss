@@ -1,9 +1,187 @@
 /*****************************
- * CV shared styles
+ * CV shared styles - Enhanced
  *****************************/
 
 div.container-link-button {
   margin-right: 0.5rem;
+}
+
+// 美化卡片样式
+.cv .card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, var(--global-bg-color) 0%, rgba(var(--global-theme-color-rgb), 0.02) 100%);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    color: var(--global-theme-color);
+    border-bottom: 2px solid var(--global-theme-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    
+    &::before {
+      content: "✨";
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+// 美化基本信息显示
+.resume-basics {
+  text-align: center;
+  
+  .basics-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--global-theme-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  .basics-label {
+    font-size: 1.2rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 1rem;
+  }
+  
+  .basics-summary {
+    font-style: italic;
+    background: rgba(var(--global-theme-color-rgb), 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 4px solid var(--global-theme-color);
+  }
+}
+
+// 美化工作经历和教育背景
+.work-item, .education-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: rgba(var(--global-theme-color-rgb), 0.03);
+  border-left: 4px solid var(--global-theme-color);
+  
+  .position, .studyType {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  .company, .institution {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+  }
+  
+  .date-range {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    background: var(--global-theme-color);
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .summary {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .highlights {
+    list-style: none;
+    padding: 0;
+    
+    li {
+      background: rgba(var(--global-theme-color-rgb), 0.1);
+      margin: 0.3rem 0;
+      padding: 0.5rem;
+      border-radius: 5px;
+      border-left: 3px solid var(--global-theme-color);
+    }
+  }
+}
+
+// 美化技能部分
+.skills-section {
+  .skill-category {
+    margin-bottom: 2rem;
+    
+    .skill-name {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--global-theme-color);
+      margin-bottom: 0.5rem;
+    }
+    
+    .skill-level {
+      font-size: 0.9rem;
+      background: var(--global-theme-color);
+      color: white;
+      padding: 0.2rem 0.5rem;
+      border-radius: 15px;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+    
+    .skill-keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      
+      .skill-tag {
+        background: rgba(var(--global-theme-color-rgb), 0.1);
+        color: var(--global-theme-color);
+        padding: 0.3rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        border: 1px solid rgba(var(--global-theme-color-rgb), 0.3);
+        transition: all 0.3s ease;
+        
+        &:hover {
+          background: var(--global-theme-color);
+          color: white;
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
+
+// 美化奖项部分
+.awards-section {
+  .award-item {
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(var(--global-theme-color-rgb), 0.1) 100%);
+    border: 2px solid rgba(255, 215, 0, 0.3);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    
+    .award-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #b8860b;
+      margin-bottom: 0.5rem;
+    }
+    
+    .award-date {
+      background: #b8860b;
+      color: white;
+      padding: 0.2rem 0.5rem;
+      border-radius: 15px;
+      font-size: 0.85rem;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+  }
 }
 
 table.table-cv {
