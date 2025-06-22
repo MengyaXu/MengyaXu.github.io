@@ -1,12 +1,12 @@
 ---
 layout: cv
 permalink: /cv/
-title: 📄 Curriculum Vitae
+title: CV
 nav: true
 nav_order: 5
 cv_pdf: MengyaXu_CV.pdf # you can also use external links here
 description: >
-  🎓 Dr. Mengya Xu • Robotics Researcher • PhD in SLAM & Deformable Environments
+  🎓 Mengya Xu • Robotics Researcher • PhD in Active SLAM
 toc:
   sidebar: left
 ---
