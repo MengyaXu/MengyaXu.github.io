@@ -16,9 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
+        },{id: "nav-curriculum-vitae",
+          title: "📄 Curriculum Vitae",
+          description: "🎓 Dr. Mengya Xu • Robotics Researcher • PhD in SLAM &amp; Deformable Environments",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
