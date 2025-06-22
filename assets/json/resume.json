@@ -29,7 +29,7 @@
   "education": [
     {
       "institution": "🏛️ University of Technology Sydney",
-      "location": "📍 Sydney, Australia",
+      "location": "Sydney, Australia",
       "url": "https://www.uts.edu.au/",
       "department": "Robotics Institute",
       "studyType": "Doctor of Philosophy (PhD)",
@@ -40,7 +40,7 @@
     },
     {
       "institution": "🏛️ Southern University of Science and Technology",
-      "location": "📍 Shenzhen, Guangdong, China",
+      "location": "Guangdong, China",
       "url": "https://www.sustech.edu.cn/en/",
       "department": "Computer Science and Engineering",
       "studyType": "Bachelor of Engineering",
