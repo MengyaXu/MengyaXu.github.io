@@ -8,10 +8,20 @@
   },
   "work": [
     {
+      "name": "🏛️ University of Turku",
+      "position": "Visiting Scholar",
+      "startDate": "2025-09-01",
+      "endDate": "present",
+      "summary": "Develop active simultaneous localization and mapping algorithms for multi-robot systems.",
+      "highlights": [
+        "Multi-robot active SLAM"
+      ]
+    },
+    {
       "name": "🏛️ University of Technology Sydney",
       "position": "Visiting Scholar",
       "startDate": "2025-02-12",
-      "endDate": "Present",
+      "endDate": "2025-08-31",
       "summary": "Develop extended Kalman filter based algorithms for simultaneous localization and mapping in deformable environments such as inside body environments.",
       "highlights": [
         "Deformable SLAM"
@@ -72,7 +82,8 @@
   "interests": [
     {
       "keywords": ["SLAM",
-    "Active SLAM",
+      "Active SLAM",
+      "Multi-robot Active SLAM",
     "Deformable SLAM ",
     "Reinforcement Learning"]
     }
