@@ -10,6 +10,8 @@ nav_order: 6
 <!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
 Organize your courses by years, topics, or universities, however you like! -->
+Instructor for UTU DTEK2081 Algorithmic Foundations of Robotic and AI, 2025
+
 Tutor for UTS 49928 Design Optimisation for Manufacturing (49928-2024-SPRING-CITY), 2024
 
 Tutor for UTS 49928 Design Optimisation for Manufacturing (49928-2023-SPRING-CITY), 2023
