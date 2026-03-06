@@ -9,6 +9,7 @@
   "work": [
     {
       "name": "🏛️ University of Turku",
+      "url": "https://www.utu.fi/en",
       "position": "Postdoctoral Researcher",
       "startDate": "2025-09-01",
       "endDate": "present",
@@ -19,6 +20,7 @@
     },
     {
       "name": "🏛️ University of Technology Sydney",
+      "url": "https://www.uts.edu.au/",
       "position": "Visiting Scholar",
       "startDate": "2025-02-12",
       "endDate": "2025-08-31",
@@ -29,6 +31,7 @@
     },
     {
       "name": "🏛️ Southern University of Science and Technology",
+      "url": "https://www.sustech.edu.cn/en/",
       "position": "Research Assistant",
       "startDate": "2019-09-01",
       "endDate": "2020-03-13",
